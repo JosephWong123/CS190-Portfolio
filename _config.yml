@@ -1,2 +1,4 @@
 theme: jekyll-theme-slate
 title: CS 190 Portfolio
+github:
+  is_project_page: false
