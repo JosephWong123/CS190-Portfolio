@@ -12,3 +12,9 @@ This is a Max patcher which responds to the input "Joseph Wong", with the correc
 This project is similar to the Type Your Name project from Programming Assignment 1. This application takes name as an input and uses the ASCII values of 
 the characters inputted in the text box to generate a chord through the Web Audio API in JavaScript. A GainNode was used to combine the sounds into a
 chord, and multiple OscillatorNodes were used to play the various tones in the chord.
+
+[Programming Assignment 3: Max Synthesizer](https://drive.google.com/drive/folders/1NfVt6NcptgCOCx-dr_3dyBtyPhg9JCJV?usp=sharing)
+
+This is a very basic Max synthesizer, based off of several examples from the Max Cookbook. This synthesizer responds to note messages and plays the
+corresponding pitches associated with the MIDI notes inputted. Additionally, you can use the modulation slider to control the vibrato depth, as well
+as send in a pitch bend message to bend the pitch being played. This patcher also features ADSR control with dials.
