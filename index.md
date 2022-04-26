@@ -18,3 +18,7 @@ chord, and multiple OscillatorNodes were used to play the various tones in the c
 This is a very basic Max synthesizer, based off of several examples from the Max Cookbook. This synthesizer responds to note messages and plays the
 corresponding pitches associated with the MIDI notes inputted. Additionally, you can use the modulation slider to control the vibrato depth, as well
 as send in a pitch bend message to bend the pitch being played. This patcher also features ADSR control with dials.
+
+[Programming Assignment 4: Algorithmic Composition](https://drive.google.com/file/d/173TMDf2vAgErNueHzl7kZSuF4EqFVIpX/view?usp=sharing)
+
+This Max patcher is a simple project, which randomly generates MIDI notes to be played on each 16th note, using the metro and transport objects in Max. The user can set the probability to generate notes, as well as the probability to generate additional notes to be played at the same time (up to 3 notes at a time). The note duration, pitch, and velocity are all randomly generated using the random object in Max.
