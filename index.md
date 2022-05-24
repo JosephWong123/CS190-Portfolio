@@ -22,3 +22,5 @@ as send in a pitch bend message to bend the pitch being played. This patcher als
 [Programming Assignment 4: Algorithmic Composition](https://drive.google.com/file/d/173TMDf2vAgErNueHzl7kZSuF4EqFVIpX/view?usp=sharing)
 
 This Max patcher is a simple project, which randomly generates MIDI notes to be played on each 16th note, using the metro and transport objects in Max. The user can set the probability to generate notes, as well as the probability to generate additional notes to be played at the same time (up to 3 notes at a time). The note duration, pitch, and velocity are all randomly generated using the random object in Max.
+
+[Final Project: Progress Report](https://josephwong123.github.io/CS190Final/)
