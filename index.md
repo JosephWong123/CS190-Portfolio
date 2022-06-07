@@ -23,4 +23,9 @@ as send in a pitch bend message to bend the pitch being played. This patcher als
 
 This Max patcher is a simple project, which randomly generates MIDI notes to be played on each 16th note, using the metro and transport objects in Max. The user can set the probability to generate notes, as well as the probability to generate additional notes to be played at the same time (up to 3 notes at a time). The note duration, pitch, and velocity are all randomly generated using the random object in Max.
 
-[Final Project: Progress Report](https://josephwong123.github.io/CS190Final/)
+[Final Project: Progress Report](https://docs.google.com/document/d/1ekgygcKerkeovv_WF4qG4KZIcT07zSkDB0Uv6FMcXUA/edit)
+[Final Project: Demo](https://josephwong123.github.io/CS190Final/)
+
+The Final Project is a web application which takes an image and generates a melody from the image, using image segmentation and clustering. We used k-
+means clustering to determine the various color clusters in the image, and used a weighted average of those clusters to determine the key that the melody
+will be generated in. The lightness of the image is used to determine the mode of the melody.
