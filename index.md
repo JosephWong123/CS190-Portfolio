@@ -27,6 +27,8 @@ This Max patcher is a simple project, which randomly generates MIDI notes to be 
 
 [Final Project: Demo](https://josephwong123.github.io/CS190Final/)
 
+[Final Project: Source Code](https://github.com/JosephWong123/CS190Final)
+
 The Final Project is a web application which takes an image and generates a melody from the image, using image segmentation and clustering. We used k-
 means clustering to determine the various color clusters in the image, and used a weighted average of those clusters to determine the key that the melody
 will be generated in. The lightness of the image is used to determine the mode of the melody.
