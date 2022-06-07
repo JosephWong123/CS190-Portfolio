@@ -31,4 +31,6 @@ This Max patcher is a simple project, which randomly generates MIDI notes to be 
 
 The Final Project is a web application which takes an image and generates a melody from the image, using image segmentation and clustering. We used k-
 means clustering to determine the various color clusters in the image, and used a weighted average of those clusters to determine the key that the melody
-will be generated in. The lightness of the image is used to determine the mode of the melody.
+will be generated in. The lightness of the image is used to determine the mode of the melody. There are two possible algorithm options for generating the 
+melody: the "simple" mapping, which takes each segment of the image and uses the Scriabin mappings to map to a pitch. This is transposed to account for 
+the key which is determined by the clusters. The "contour" algorithm uses the contours of the image to create a melody.
